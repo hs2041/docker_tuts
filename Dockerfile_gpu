@@ -1,0 +1,15 @@
+FROM nvidia/cuda:12.2.0-base-ubuntu20.04
+
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3.5 \
+    python3-pip \
+    && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install numpy
+
+# Build command: docker build -t test_gpu_v2 -f Dockerfile_gpu .
+# Run container: docker run -it --rm --gpus all test_gpu_v2
+# Cuda container with nvcc:  docker run -it --gpus all nvidia/cuda:12.0.0-devel-ubi8
