@@ -1,0 +1,9 @@
+FROM ros:humble-ros-core
+
+
+
+# RUN pip3 install numpy
+
+# Build command: docker build -t test_volume_v1 -f Dockerfile_volume .
+# Run container: docker run -it -v "$PWD":/data test_volume_v1
+
