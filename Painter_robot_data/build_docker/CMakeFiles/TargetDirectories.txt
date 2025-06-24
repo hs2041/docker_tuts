@@ -1,0 +1,3 @@
+/data/Painter_robot/build_docker/CMakeFiles/paint_robot.dir
+/data/Painter_robot/build_docker/CMakeFiles/edit_cache.dir
+/data/Painter_robot/build_docker/CMakeFiles/rebuild_cache.dir

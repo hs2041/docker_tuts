@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O2  -rdynamic CMakeFiles/paint_robot.dir/src/main.cpp.o CMakeFiles/paint_robot.dir/src/robot.cpp.o CMakeFiles/paint_robot.dir/src/opengl_display.cpp.o CMakeFiles/paint_robot.dir/src/path_finder.cpp.o -o paint_robot  /usr/lib/x86_64-linux-gnu/libSDL2.so -lGL -lGLU 
